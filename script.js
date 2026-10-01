@@ -5,7 +5,7 @@ class Person {
         this._age = age;
     }
 
-    get name(): string {
+    get name() {
         return this._name;
     }
 
@@ -13,7 +13,7 @@ class Person {
         return this._age;
     }
 
-    set age(age: number) {
+    set age(age) {
         this._age = age;
     }
 }
